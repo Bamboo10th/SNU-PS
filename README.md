@@ -17,4 +17,8 @@
 -----Test                                                                                                                                                                                                                    
 ---------T1                                                                                                                                                                                                                  
 ---------T2                                                                                                                                                                                                                      
-
+CD_Seg：实现语义分割，获取两期影像后验概率。                                                                                                                                                                      
+Run.py用于训练，Eval.py用于验证测试。                                                                                                                                                                              
+Model和DeeplabV3PLlus_Model包含不同语义分割模型（HRNet/UNet/EfficientNet_Unet/UperNet/UNet_2Plus/UNet_3Plus/DeeplabV3PLlus/TransUNet)                                                                                                
+Utils--Model_Select.py 可定义、增加模型、loss、optimizer、scheduler。
+      
